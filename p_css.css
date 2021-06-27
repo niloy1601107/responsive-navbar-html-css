@@ -2,22 +2,36 @@
 
 body {
     background-image: url("hero-bg.jpg");
+    width: auto;
     margin: 0%;
     font-family: 'Roboto Mono', monospace;
 }
 .nav-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: rgb(0, 0, 0);
-    padding: 2%;
+    padding: 1.5%;
+    position: sticky;
 }
-h3,li{
-    display: inline;
+#logo{
+    display: block;
+    left: 200px;
 }
 
-h3 {
+
+.item{
+    display: inline-flex;
+    padding-left: 1em;
+}
+
+h2 {
     margin: 0%;
-    padding: 0% 2% ;
     color: rgb(218, 218, 218);
     font-style: italic;
+}
+#menu{
+    display: inline-flex;
 }
 ul {
     color: rgb(218, 218, 218);
@@ -25,6 +39,13 @@ ul {
     margin: 0;
     padding: 0;
   }
-.item{
-    padding: 0% 2% 5rem 0%;
+
+#personal{
+    padding-left: 5rem;
+}
+
+.fas{
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
 }
